@@ -1,7 +1,7 @@
 package com.test.polymorphism;
 
 /**
- * Created by Administrator on 2019/5/6.
+ * 飞的行为
  */
 public class FlyAction extends AbstractAction {
     @Override
@@ -9,9 +9,9 @@ public class FlyAction extends AbstractAction {
         System.out.println("fly action");
     }
 
-  /*  @Override
+    @Override
     public void init(){
-       //   super.init();
-    }*/
+          super.init();
+    }
 
 }
